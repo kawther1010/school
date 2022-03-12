@@ -1,0 +1,45 @@
+html,body{
+    height: 100%;
+}
+/* register page */
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #372047;
+}
+.home{
+    background-color: #0ccbff;
+}
+.bg__img{
+    width: 100%;
+    height: 100%;
+}
+.colored__txt{
+    color: #DC4F85;
+}
+/* register session */
+.miniinput{
+    width: 17.3vw;
+}
+.fullinput{
+    width: 35vw;
+}
+.submit__btn{
+    background-color: #DC4F85;
+    border: 1px solid #DC4F85;
+    color: #0ccbff;
+    border-radius: 7px;
+    padding: 8px 10px;
+}
+/* homepage page */
+.homepage{
+    margin: 3%;
+}
+/* profile page */
+.profilepicture{
+    height: 60%;
+    width: 60%;
+    border-radius: 50%;
+}
+.profile__corner{
+    text-align: center;
+}
