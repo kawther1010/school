@@ -23,7 +23,6 @@ const getlogin= (req, res) => {
 const gethomepage = (req, res) => {
     Student.findOne( {email: req.cookies.email}, (err, docs) => {
         Post.find({}, (err, result) => {
-            console.log(result);
             try{
                 return res.status(200).render('homepage', {
                     student: docs,
